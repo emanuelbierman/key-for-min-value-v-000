@@ -10,4 +10,5 @@ def key_for_min_value(name_hash)
   min_value = sorted_value_array[0]
 
   name_hash[min_value]
+  binding.pry
 end
