@@ -9,5 +9,5 @@ def key_for_min_value(name_hash)
 
   min_value = sorted_value_array[0]
 
-  binding.pry
+  name_hash.key(min_value)
 end
