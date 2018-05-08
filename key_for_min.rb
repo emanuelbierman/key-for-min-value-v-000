@@ -7,5 +7,5 @@ def key_for_min_value(name_hash)
 
   sorted_value_array = value_array.sort {|a, b| a <=> b}
 
-  sorted_value_array[0]
+  name_hash[sorted_value_array[0]]
 end
